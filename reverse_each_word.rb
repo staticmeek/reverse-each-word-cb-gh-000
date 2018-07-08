@@ -1,4 +1,7 @@
 def reverse_each_word(strings)
-  words = strings.split(" ")
-
+  nuarray = []
+  strings.map! do |element|
+    element.reverse
+  end
+  array.join(" ")
 end
