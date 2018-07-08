@@ -1,5 +1,5 @@
 def reverse_each_word(strings)
-  nuarray = []
+  strings.to_a
   strings.map! do |element|
     element.reverse
   end
