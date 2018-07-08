@@ -7,4 +7,5 @@ def reverse_each_word(strings)
   reversed_string.each do |word|
     word.reverse
   end
+  reversed_string
 end
