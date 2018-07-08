@@ -4,5 +4,5 @@ def reverse_each_word(strings)
   strings.each do |word|
     reversed_string.push(word)
   end
-  reversed_string
+  reversed_string.reverse
 end
