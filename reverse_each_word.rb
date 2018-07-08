@@ -7,5 +7,4 @@ def reverse_each_word(strings)
     string << strings
   end
   strings
-
 end
